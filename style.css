@@ -1,0 +1,279 @@
+body{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+/* div{
+    border: 2px;
+    border-style: solid;
+    /* border-color: rgba(22, 5, 61, 0.411); 
+} */
+
+#profile{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+#pname{
+    margin: auto 2px auto 2px;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding-top:6px ;
+    padding-bottom: 6px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar ul li a:hover{
+    color: rgb(9, 110, 241) ;
+    font-size: 15px;
+
+}
+
+.top{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* position: fixed; */
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#hello{
+    width: 100%;
+    height: 770px;
+    display: block;
+    background-image: url(/portfolio/images/hello.png);
+    background-size: cover;
+    padding-top: 21.28px;
+}
+
+#hello h1{
+    padding-top: 200px;
+    padding-bottom: 160px;
+    margin-top: 0px;
+    font-family: 'Charm', cursive;
+    font-size: 95px;
+    color: rgb(6, 6, 61);
+}
+
+
+#hello p{
+    font-family: 'Charm', cursive;
+    font-size: 42px;
+    color: rgb(10, 10, 43);
+    font-weight: bolder;
+}
+
+#skills{
+    width: 100%;
+    height: 500px;
+    background-image: url(/portfolio/images/skills.png);
+    padding-top: 5px;
+}
+#skills h4{
+    font-family: 'Charm', cursive;
+    font-size: 30px;
+    margin: 32px 0px;
+}
+#skills p{
+    font-family:'Charm', cursive;
+    font-size: 20px;
+    /* font-weight: 200; */
+}
+
+#skills img{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+}
+#skills img:hover{
+    width: 130px;
+    height: 130px;
+    padding: 60px;
+}
+
+#quote{
+    width: 100%;
+    height: 350px;
+}
+
+#sample{
+    width: 100%;
+    height: 500px;
+    background-image: url(/portfolio/images/work\ sample.png);
+    padding-top: 1px;
+}
+#sample h4{
+    font-family: 'Charm', cursive;
+    font-size: 30px;
+    margin: 32px 0px;
+}
+#sample p{
+    font-family:'Charm', cursive;
+    font-size: 20px;
+    /* font-weight: 200; */
+}
+#sample img{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+}
+#sample img:hover{
+    width: 130px;
+    height: 130px;
+    padding: 60px;
+}
+
+#info{
+    width: 100%;
+    height: 500px;
+    background-image: url(/portfolio/images/info.png);
+    padding-top: 5px;
+}
+#info h4{
+    font-family: 'Charm', cursive;
+    font-size: 30px;
+    margin: 5px 0px;
+    position: absolute;
+    right: 389px;
+}
+#info #pjpg{
+    position: absolute;
+    left: 0px;
+    margin: 35px;
+}
+
+#info p{
+    position: absolute;
+    right: 60px ;
+    margin: 100px 20px;
+    font-family:'Charm', cursive;
+    font-size: 20px;
+}
+
+#info #q1jpg,#q2jpg{
+    width: 20px;
+    height: 20px;
+    margin:0px 5px 0px 5px ;
+}
+
+#contact{
+    width: 100%;
+    height: 350px;
+    /* background-color: #B1D0E0; */
+    background-image: url(/portfolio/images/contact.png);
+    padding-top: 5px;
+}
+
+#contact h4{
+    font-family: 'Charm', cursive;
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+#contact #a img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+#contact #a{
+    position: absolute;
+    left: 0px;
+    margin: 30px 10px 100px 190px;
+    padding: 3px 200px 50px 0px;
+    border-right: solid;
+    border-right-width: thin;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+#contact #a input{
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: solid;
+    border-width: thin;
+    padding: 10px 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+#contact #a input:hover{
+    background-color: rgba(121, 112, 112, 0.267);
+    font-size: 17px;
+    padding: 9px 19px;
+}
+
+#contact #b{
+    position: absolute;
+    right: 0px;
+    margin: 30px 190px 100px 100px;
+    padding: 3px 0px 130px 130px;
+    border-left: solid;
+    border-left-width: thin;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+}
+
+#contact #b img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+#contact #b img:hover{
+    width: 41.2px;
+    height: 41.2px;
+}
+
+#contact #c{
+    position: absolute;
+    margin-top:45px ;
+    margin-right: -4px;
+    left: 45%;
+    right: 45%;
+}
+#contact #c a{
+    display: block;
+    margin: 13px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 13px;
+}
+#contact #c a:hover{
+    color:rgb(9, 110, 241);
+}
+#d{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url(/portfolio/images/Untitled\ design.png);
+
+}
+#d img{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+#d img:hover{
+    width: 280px;
+    height: 280px;
+    margin: 60px;
+}
